@@ -7,7 +7,7 @@
       var pathsegs = window.location.pathname.split('/');
       var rootpath = pathsegs.slice(0, 2).join('/');
       var route = pathsegs.slice(2).join('/');
-      window.location.replace([rootpath, '#!/', route].join('/'));
+      window.location.replace([rootpath, '#!', route].join('/'));
     </script>
   </head>
   <body>
